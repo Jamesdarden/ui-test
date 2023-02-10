@@ -1,0 +1,180 @@
+Pane - 'PC Matic'    (L455, T183, R1479, B874)
+['PC Matic', 'PC MaticPane', 'Pane', 'Pane0', 'Pane1']
+child_window(title="PC Matic", auto_id="thebody", control_type="Pane")
+   |
+   | ListBox - ''    (L1414, T188, R1468, B208)
+   | ['ListBox', 'ListBox0', 'ListBox1']
+   | child_window(auto_id="Toolbar", control_type="List")
+   |    |
+   |    | ListItem - ''    (L465, T188, R585, B208)
+   |    | ['ListItem', 'ListItem0', 'ListItem1']
+   |    |
+   |    | ListItem - ''    (L1414, T188, R1434, B208)
+   |    | ['ListItem2']
+   |    |
+   |    | ListItem - ''    (L1441, T188, R1461, B208)
+   |    | ['ListItem3']
+   |
+   | Image - ''    (L526, T248, R646, B368)
+   | ['Image']
+   | child_window(auto_id="headerShield", control_type="Image")
+   |
+   | Button - 'This device is protected'    (L696, T263, R1209, B317)
+   | ['This device is protected', 'This device is protectedButton', 'Button', 'Button0', 'Button1']
+   | child_window(title="This device is protected", control_type="Button")
+   |
+   | ListBox - ''    (L481, T398, R1503, B528)
+   | ['ListBox2']
+   |    |
+   |    | ListItem - '\r\nDashboard'    (L481, T398, R641, B528)
+   |    | ['ListItem4', '\r\nDashboardListItem', '\r\nDashboard', '\r\nDashboard0', '\r\nDashboard1']
+   |    | child_window(title="\r\nDashboard", control_type="ListItem")
+   |    |    |
+   |    |    | Button - '\r\nDashboard'    (L506, T418, R616, B509)
+   |    |    | ['\r\nDashboardButton', 'Button2', '\r\nDashboard2']
+   |    |    | child_window(title="\r\nDashboard", control_type="Button")
+   |    |
+   |    | ListItem - '\r\nSuperShield'    (L641, T398, R801, B528)
+   |    | ['\r\nSuperShield', 'ListItem5', '\r\nSuperShieldListItem', '\r\nSuperShield0', '\r\nSuperShield1']
+   |    | child_window(title="\r\nSuperShield", control_type="ListItem")
+   |    |    |
+   |    |    | Button - '\r\nSuperShield'    (L666, T418, R776, B510)
+   |    |    | ['\r\nSuperShield2', '\r\nSuperShieldButton', 'Button3']
+   |    |    | child_window(title="\r\nSuperShield", control_type="Button")
+   |    |
+   |    | ListItem - '\r\nScheduler'    (L801, T398, R961, B528)
+   |    | ['\r\nScheduler', 'ListItem6', '\r\nSchedulerListItem', '\r\nScheduler0', '\r\nScheduler1']
+   |    | child_window(title="\r\nScheduler", control_type="ListItem")
+   |    |    |
+   |    |    | Button - '\r\nScheduler'    (L826, T418, R936, B509)
+   |    |    | ['\r\nScheduler2', '\r\nSchedulerButton', 'Button4']
+   |    |    | child_window(title="\r\nScheduler", control_type="Button")
+   |    |
+   |    | ListItem - '\r\nDevices'    (L961, T398, R1121, B528)
+   |    | ['ListItem7', '\r\nDevices', '\r\nDevicesListItem', '\r\nDevices0', '\r\nDevices1']
+   |    | child_window(title="\r\nDevices", control_type="ListItem")
+   |    |    |
+   |    |    | Button - '\r\nDevices'    (L986, T418, R1096, B509)
+   |    |    | ['\r\nDevices2', '\r\nDevicesButton', 'Button5']
+   |    |    | child_window(title="\r\nDevices", control_type="Button")
+   |    |
+   |    | ListItem - '\r\nReports'    (L1121, T398, R1281, B528)
+   |    | ['ListItem8', '\r\nReports', '\r\nReportsListItem', '\r\nReports0', '\r\nReports1']
+   |    | child_window(title="\r\nReports", control_type="ListItem")
+   |    |    |
+   |    |    | Button - '\r\nReports'    (L1146, T418, R1256, B509)
+   |    |    | ['\r\nReportsButton', '\r\nReports2', 'Button6']
+   |    |    | child_window(title="\r\nReports", control_type="Button")
+   |    |
+   |    | ListItem - '\r\nOptions'    (L1281, T398, R1441, B528)
+   |    | ['ListItem9', '\r\nOptions', '\r\nOptionsListItem', '\r\nOptions0', '\r\nOptions1']
+   |    | child_window(title="\r\nOptions", control_type="ListItem")
+   |    |    |
+   |    |    | Button - '\r\nOptions'    (L1306, T418, R1416, B509)
+   |    |    | ['\r\nOptions2', '\r\nOptionsButton', 'Button7']
+   |    |    | child_window(title="\r\nOptions", control_type="Button")
+   |
+   | Static - 'Device information not available.'    (L663, T638, R810, B675)
+   | ['Device information not available.Static', 'Static', 'Device information not available.', 'Static0', 'Static1']
+   | child_window(title="Device information not available.", control_type="Text")
+   |
+   | Static - 'Please run a scan.'    (L665, T674, R808, B693)
+   | ['Static2', 'Please run a scan.Static', 'Please run a scan.']
+   | child_window(title="Please run a scan.", control_type="Text")
+   |
+   | Button - 'Scan'    (L904, T636, R1004, B709)
+   | ['ScanButton', 'Scan', 'Button8']
+   | child_window(title="Scan", auto_id="scanBtn", control_type="Button")
+   |
+   | Static - 'Quick Stats'    (L1217, T614, R1304, B633)
+   | ['Static3', 'Quick StatsStatic', 'Quick Stats']
+   | child_window(title="Quick Stats", control_type="Text")
+   |
+   | ListBox - ''    (L1072, T636, R1449, B751)
+   | ['Quick StatsListBox', 'ListBox3', 'Quick StatsListBox0', 'Quick StatsListBox1']
+   |    |
+   |    | ListItem - 'Scan History'    (L1072, T646, R1177, B721)
+   |    | ['ListItem10', 'Scan History', 'Scan HistoryListItem', 'Scan History0', 'Scan History1']
+   |    | child_window(title="Scan History", control_type="ListItem")
+   |    |    |
+   |    |    | Button - 'Scan History'    (L1097, T651, R1167, B736)
+   |    |    | ['Scan History2', 'Scan HistoryButton', 'Button9']
+   |    |    | child_window(title="Scan History", control_type="Button")
+   |    |
+   |    | ListItem - 'Performance\r\nTrends'    (L1227, T646, R1297, B716)
+   |    | ['ListItem11', 'Performance\r\nTrendsListItem', 'Performance\r\nTrends', 'Performance\r\nTrends0', 'Performance\r\nTrends1']
+   |    | child_window(title="Performance\r\nTrends", auto_id="performanceTrends", control_type="ListItem")
+   |    |    |
+   |    |    | Button - 'Performance\r\nTrends'    (L1227, T646, R1297, B743)
+   |    |    | ['Button10', 'Performance\r\nTrendsButton', 'Performance\r\nTrends2']
+   |    |    | child_window(title="Performance\r\nTrends", control_type="Button")
+   |    |
+   |    | ListItem - 'Maintenance\r\nStatistics'    (L1349, T646, R1419, B721)
+   |    | ['Maintenance\r\nStatisticsListItem', 'ListItem12', 'Maintenance\r\nStatistics', 'Maintenance\r\nStatistics0', 'Maintenance\r\nStatistics1']
+   |    | child_window(title="Maintenance\r\nStatistics", auto_id="statsButton", control_type="ListItem")
+   |    |    |
+   |    |    | Button - 'Maintenance\r\nStatistics'    (L1349, T651, R1419, B743)
+   |    |    | ['Button11', 'Maintenance\r\nStatisticsButton', 'Maintenance\r\nStatistics2']
+   |    |    | child_window(title="Maintenance\r\nStatistics", control_type="Button")
+   |
+   | Pane - 'about:blank'    (L0, T0, R0, B0)
+   | ['about:blank', 'Pane2', 'about:blankPane']
+   | child_window(title="about:blank", control_type="Pane")
+   |
+   | ListBox - ''    (L461, T832, R1473, B852)
+   | ['ListBox4', 'Please run a scan.ListBox']
+   |    |
+   |    | ListItem - ' Account'    (L461, T832, R561, B852)
+   |    | ['ListItem13', ' Account', ' AccountListItem', ' Account0', ' Account1']
+   |    | child_window(title=" Account", control_type="ListItem")
+   |    |    |
+   |    |    | Button - ' Account'    (L461, T832, R561, B852)
+   |    |    | [' AccountButton', ' Account2', 'Button12']
+   |    |    | child_window(title=" Account", control_type="Button")
+   |    |
+   |    | ListItem - ' Add a Device'    (L561, T832, R711, B852)
+   |    | ['ListItem14', ' Add a DeviceListItem', ' Add a Device', ' Add a Device0', ' Add a Device1']
+   |    | child_window(title=" Add a Device", control_type="ListItem")
+   |    |    |
+   |    |    | Button - ' Add a Device'    (L561, T832, R711, B852)
+   |    |    | [' Add a DeviceButton', ' Add a Device2', 'Button13']
+   |    |    | child_window(title=" Add a Device", control_type="Button")
+   |
+   | ListBox - ''    (L1211, T832, R1473, B852)
+   | ['Quick StatsListBox2', 'ListBox5']
+   |    |
+   |    | ListItem - ' Support'    (L1211, T832, R1310, B852)
+   |    | ['ListItem15', ' Support', ' SupportListItem', ' Support0', ' Support1']
+   |    | child_window(title=" Support", control_type="ListItem")
+   |    |    |
+   |    |    | Button - ' Support'    (L1211, T832, R1310, B852)
+   |    |    | [' SupportButton', ' Support2', 'Button14']
+   |    |    | child_window(title=" Support", control_type="Button")
+   |    |
+   |    | ListItem - ' Shop'    (L1310, T832, R1383, B852)
+   |    | ['ListItem16', ' ShopListItem', ' Shop', ' Shop0', ' Shop1']
+   |    | child_window(title=" Shop", control_type="ListItem")
+   |    |    |
+   |    |    | Button - ' Shop'    (L1310, T832, R1383, B852)
+   |    |    | [' ShopButton', ' Shop2', 'Button15']
+   |    |    | child_window(title=" Shop", control_type="Button")
+   |    |
+   |    | ListItem - ' Logout'    (L1383, T832, R1473, B852)
+   |    | ['ListItem17', ' Logout', ' LogoutListItem', ' Logout0', ' Logout1']
+   |    | child_window(title=" Logout", control_type="ListItem")
+   |    |    |
+   |    |    | Button - ' Logout'    (L1383, T832, R1473, B852)
+   |    |    | [' LogoutButton', ' Logout2', 'Button16']
+   |    |    | child_window(title=" Logout", control_type="Button")
+   |
+   | Pane - ''    (L0, T0, R0, B0)
+   | ['Pane3']
+   | child_window(auto_id="sys", control_type="Pane")
+   |
+   | Pane - ''    (L0, T0, R0, B0)
+   | ['Pane4']
+   | child_window(auto_id="Exam", control_type="Pane")
+   |
+   | Pane - ''    (L0, T0, R0, B0)
+   | ['Pane5']
+   | child_window(auto_id="DiskMDCtrl", control_type="Pane")

@@ -1,0 +1,188 @@
+
+Pane - 'PC Matic'    (L288, T93, R1312, B784)
+['Pane', 'PC Matic', 'PC MaticPane', 'Pane0', 'Pane1']
+child_window(title="PC Matic", auto_id="thebody", control_type="Pane")
+   |
+   | ListBox - ''    (L1247, T98, R1301, B118)
+   | ['ListBox', 'ListBox0', 'ListBox1']
+   | child_window(auto_id="Toolbar", control_type="List")
+   |    |
+   |    | ListItem - ''    (L298, T98, R418, B118)
+   |    | ['ListItem', 'ListItem0', 'ListItem1']
+   |    |
+   |    | ListItem - ''    (L1247, T98, R1267, B118)
+   |    | ['ListItem2']
+   |    |
+   |    | ListItem - ''    (L1274, T98, R1294, B118)
+   |    | ['ListItem3']
+   |
+   | Image - ''    (L359, T158, R479, B278)
+   | ['Image', 'Image0', 'Image1']
+   | child_window(auto_id="headerShield", control_type="Image")
+   |
+   | Button - 'This device is protected'    (L529, T173, R1042, B227)
+   | ['Button', 'This device is protectedButton', 'This device is protected', 'Button0', 'Button1']
+   | child_window(title="This device is protected", control_type="Button")
+   |
+   | ListBox - ''    (L314, T308, R1336, B438)
+   | ['ListBox2']
+   |    |
+   |    | ListItem - '\r\nDashboard'    (L314, T308, R474, B438)
+   |    | ['\r\nDashboardListItem', 'ListItem4', '\r\nDashboard', '\r\nDashboard0', '\r\nDashboard1']
+   |    | child_window(title="\r\nDashboard", control_type="ListItem")
+   |    |    |
+   |    |    | Button - '\r\nDashboard'    (L339, T328, R449, B419)
+   |    |    | ['Button2', '\r\nDashboardButton', '\r\nDashboard2']
+   |    |    | child_window(title="\r\nDashboard", control_type="Button")
+   |    |
+   |    | ListItem - '\r\nSuperShield'    (L474, T308, R634, B438)
+   |    | ['\r\nSuperShield', 'ListItem5', '\r\nSuperShieldListItem', '\r\nSuperShield0', '\r\nSuperShield1']
+   |    | child_window(title="\r\nSuperShield", control_type="ListItem")
+   |    |    |
+   |    |    | Button - '\r\nSuperShield'    (L499, T328, R609, B420)
+   |    |    | ['\r\nSuperShieldButton', 'Button3', '\r\nSuperShield2']
+   |    |    | child_window(title="\r\nSuperShield", control_type="Button")
+   |    |
+   |    | ListItem - '\r\nScheduler'    (L634, T308, R794, B438)
+   |    | ['\r\nSchedulerListItem', 'ListItem6', '\r\nScheduler', '\r\nScheduler0', '\r\nScheduler1']
+   |    | child_window(title="\r\nScheduler", control_type="ListItem")
+   |    |    |
+   |    |    | Button - '\r\nScheduler'    (L659, T328, R769, B419)
+   |    |    | ['Button4', '\r\nSchedulerButton', '\r\nScheduler2']
+   |    |    | child_window(title="\r\nScheduler", control_type="Button")
+   |    |
+   |    | ListItem - '\r\nDevices'    (L794, T308, R954, B438)
+   |    | ['ListItem7', '\r\nDevicesListItem', '\r\nDevices', '\r\nDevices0', '\r\nDevices1']
+   |    | child_window(title="\r\nDevices", control_type="ListItem")
+   |    |    |
+   |    |    | Button - '\r\nDevices'    (L819, T328, R929, B419)
+   |    |    | ['Button5', '\r\nDevices2', '\r\nDevicesButton']
+   |    |    | child_window(title="\r\nDevices", control_type="Button")
+   |    |
+   |    | ListItem - '\r\nReports'    (L954, T308, R1114, B438)
+   |    | ['\r\nReportsListItem', 'ListItem8', '\r\nReports', '\r\nReports0', '\r\nReports1']
+   |    | child_window(title="\r\nReports", control_type="ListItem")
+   |    |    |
+   |    |    | Button - '\r\nReports'    (L979, T328, R1089, B419)
+   |    |    | ['Button6', '\r\nReports2', '\r\nReportsButton']
+   |    |    | child_window(title="\r\nReports", control_type="Button")
+   |    |
+   |    | ListItem - '\r\nOptions'    (L1114, T308, R1274, B438)
+   |    | ['\r\nOptionsListItem', 'ListItem9', '\r\nOptions', '\r\nOptions0', '\r\nOptions1']
+   |    | child_window(title="\r\nOptions", control_type="ListItem")
+   |    |    |
+   |    |    | Button - '\r\nOptions'    (L1139, T328, R1249, B419)
+   |    |    | ['Button7', '\r\nOptions2', '\r\nOptionsButton']
+   |    |    | child_window(title="\r\nOptions", control_type="Button")
+   |
+   | Static - 'SuperShield'    (L309, T449, R406, B465)
+   | ['SuperShield', 'Static', 'SuperShieldStatic', 'Static0', 'Static1']
+   | child_window(title="SuperShield", control_type="Text")
+   |
+   | Static - 'Scan History'    (L0, T0, R0, B0)
+   | ['Scan HistoryStatic', 'Static2', 'Scan History']
+   | child_window(title="Scan History", control_type="Text")
+   |
+   | Static - 'SUPERSHIELD ACTIVITY'    (L0, T0, R0, B0)
+   | ['SUPERSHIELD ACTIVITY', 'Static3', 'SUPERSHIELD ACTIVITYStatic']
+   | child_window(title="SUPERSHIELD ACTIVITY", control_type="Text")
+   |
+   | Image - ''    (L0, T0, R0, B0)
+   | ['Image2']
+   |
+   | Button - 'Excel'    (L288, T93, R289, B94)
+   | ['Excel', 'Button8', 'ExcelButton']
+   | child_window(title="Excel", auto_id="BrowseExcel", control_type="Button")
+   |
+   | Static - 'Process Name'    (L0, T0, R0, B0)
+   | ['Static4', 'Process NameStatic', 'Process Name']
+   | child_window(title="Process Name", control_type="Text")
+   |
+   | Static - 'Vendor'    (L0, T0, R0, B0)
+   | ['Static5', 'VendorStatic', 'Vendor']
+   | child_window(title="Vendor", control_type="Text")
+   |
+   | Static - 'Product Name'    (L0, T0, R0, B0)
+   | ['Product Name', 'Product NameStatic', 'Static6']
+   | child_window(title="Product Name", control_type="Text")
+   |
+   | Static - 'Date '    (L0, T0, R0, B0)
+   | ['Static7', 'Date Static', 'Date ']
+   | child_window(title="Date ", control_type="Text")
+   |
+   | Image - ''    (L0, T0, R0, B0)
+   | ['Image3']
+   |
+   | Static - 'Time'    (L0, T0, R0, B0)
+   | ['Time', 'TimeStatic', 'Static8']
+   | child_window(title="Time", control_type="Text")
+   |
+   | Pane - 'about:blank'    (L0, T0, R0, B0)
+   | ['Pane2', 'about:blankPane', 'about:blank']
+   | child_window(title="about:blank", control_type="Pane")
+   |
+   | ListBox - ''    (L294, T742, R1306, B762)
+   | ['ListBox3', 'SuperShieldListBox', 'SuperShieldListBox0', 'SuperShieldListBox1']
+   |    |
+   |    | ListItem - ' Account'    (L294, T742, R394, B762)
+   |    | [' Account', ' AccountListItem', 'ListItem10', ' Account0', ' Account1']
+   |    | child_window(title=" Account", control_type="ListItem")
+   |    |    |
+   |    |    | Button - ' Account'    (L294, T742, R394, B762)
+   |    |    | [' Account2', 'Button9', ' AccountButton']
+   |    |    | child_window(title=" Account", control_type="Button")
+   |    |
+   |    | ListItem - ' Add a Device'    (L394, T742, R544, B762)
+   |    | ['ListItem11', ' Add a Device', ' Add a DeviceListItem', ' Add a Device0', ' Add a Device1']
+   |    | child_window(title=" Add a Device", control_type="ListItem")
+   |    |    |
+   |    |    | Button - ' Add a Device'    (L394, T742, R544, B762)
+   |    |    | [' Add a DeviceButton', 'Button10', ' Add a Device2']
+   |    |    | child_window(title=" Add a Device", control_type="Button")
+   |
+   | ListBox - ''    (L1044, T742, R1306, B762)
+   | ['ListBox4', 'SuperShieldListBox2']
+   |    |
+   |    | ListItem - ' Support'    (L1044, T742, R1143, B762)
+   |    | [' SupportListItem', ' Support', 'ListItem12', ' Support0', ' Support1']
+   |    | child_window(title=" Support", control_type="ListItem")
+   |    |    |
+   |    |    | Button - ' Support'    (L1044, T742, R1143, B762)
+   |    |    | [' Support2', 'Button11', ' SupportButton']
+   |    |    | child_window(title=" Support", control_type="Button")
+   |    |
+   |    | ListItem - ' Shop'    (L1143, T742, R1216, B762)
+   |    | [' Shop', ' ShopListItem', 'ListItem13', ' Shop0', ' Shop1']
+   |    | child_window(title=" Shop", control_type="ListItem")
+   |    |    |
+   |    |    | Button - ' Shop'    (L1143, T742, R1216, B762)
+   |    |    | ['Button12', ' Shop2', ' ShopButton']
+   |    |    | child_window(title=" Shop", control_type="Button")
+   |    |
+   |    | ListItem - ' Logout'    (L1216, T742, R1306, B762)
+   |    | [' LogoutListItem', ' Logout', 'ListItem14', ' Logout0', ' Logout1']
+   |    | child_window(title=" Logout", control_type="ListItem")
+   |    |    |
+   |    |    | Button - ' Logout'    (L1216, T742, R1306, B762)
+   |    |    | ['Button13', ' LogoutButton', ' Logout2']
+   |    |    | child_window(title=" Logout", control_type="Button")
+   |
+   | Pane - ''    (L0, T0, R0, B0)
+   | ['Pane3']
+   | child_window(auto_id="sys", control_type="Pane")
+   |
+   | Pane - ''    (L0, T0, R0, B0)
+   | ['Pane4']
+   | child_window(auto_id="Exam", control_type="Pane")
+   |
+   | Pane - ''    (L0, T0, R0, B0)
+   | ['Pane5']
+   | child_window(auto_id="DiskMDCtrl", control_type="Pane")
+
+
+
+
+
+
+
+
